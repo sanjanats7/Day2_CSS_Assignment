@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- main container which contains whole layout -->
+    <main class="container">
+      <!-- result setion on the left -->
+      <section class="result">
+        <header>
+          <h3>Your Result</h3>
+        </header>
+        <div class="gradient_circle">
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <h2>Great</h2>
+        <p class="description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <!-- summary section taking up the other 50 percnet of the container -->
+      <section class="summary">
+        <header>
+          <h3>Summary</h3>
+        </header>
+        <!-- Summary item to style them all -->
+        <div class="summary-item reaction">
+          <i class="fas fa-bolt"></i>
+          <span>Reaction</span>
+          <!-- /100 enclosed in span for opacity styling purpose -->
+          <span>80 <span class="score">/ 100</span></span>
+        </div>
+        <div class="summary-item memory">
+          <i class="fas fa-brain"></i>
+          <span>Memory</span>
+          <span>92 <span class="score">/ 100</span></span>
+        </div>
+        <div class="summary-item verbal">
+          <i class="fas fa-comment"></i>
+          <span>Verbal</span>
+          <span>61 <span class="score">/ 100</span></span>
+        </div>
+        <div class="summary-item visual">
+          <i class="fas fa-eye"></i>
+          <span>Visual</span>
+          <span>73 <span class="score">/ 100</span></span>
+        </div>
+        <button class="continue">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
