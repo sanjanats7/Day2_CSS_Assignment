@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f3f3f3;
   display: flex;
   justify-content: center;
@@ -31,17 +31,22 @@ body {
   max-height: 360px;
   margin-right: 20px;
 }
+.result header {
+  opacity: 0.5;
+}
+.of_hundred {
+  opacity: 0.5;
+}
 .gradient_circle {
   background: linear-gradient(to top, #4e54c8, #8f94fb);
   color: white;
   border-radius: 50%;
   width: 150px;
-  height: 150px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 .gradient_circle h1 {
   font-size: 50px;
