@@ -118,3 +118,20 @@ body {
   color: #333;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    max-width: 100%;
+    max-height: none;
+  }
+  .result {
+    margin-right: 0;
+  }
+  .summary-item {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .summary {
+    padding: 0;
+  }
+}
